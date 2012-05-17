@@ -1,0 +1,6 @@
+name: CrapLogger
+main: to.joe.j2mc.logger.J2MC_Logger
+version: 1.0
+website: http://forums.joe.to
+author: J2 Minecraft Plugin Team
+description: Logs crap
