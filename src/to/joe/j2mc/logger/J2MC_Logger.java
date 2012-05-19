@@ -19,7 +19,8 @@ public class J2MC_Logger extends JavaPlugin implements Listener{
     public void onEnable(){
         Handler handler = null;
         try {
-            handler = new FileHandler("secondary.log");
+            handler = new FileHandler("secondary.log", true);
+            this.craplogger =  Logger.getLogger("to.joe.crap");
         } catch (Exception e) {
             this.getLogger().severe("Could not enable logger, shutting down!");
             e.printStackTrace();
